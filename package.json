@@ -18,6 +18,7 @@
     "build": "bun build.ts",
     "postinstall": "NODE_ENV=production bun build.ts",
     "format": "prettier --write src",
+    "ts:check": "tsc --noEmit",
     "preview": "vite preview"
   },
   "trustedDependencies": [
